@@ -9,9 +9,9 @@ namespace Spryker\Glue\MerchantCategoriesRestApi\Plugin\MerchantsRestApi;
 
 use Generated\Shared\Transfer\MerchantStorageTransfer;
 use Generated\Shared\Transfer\RestMerchantsAttributesTransfer;
-use Spryker\Glue\MerchantsRestApiExtension\Dependency\Plugin\RestMerchantAttributesMapperPluginInterface;
+use Spryker\Glue\MerchantsRestApiExtension\Dependency\Plugin\RestMerchantsAttributesMapperPluginInterface;
 
-class MerchantCategoryRestMerchantAttributesMapperPlugin implements RestMerchantAttributesMapperPluginInterface
+class MerchantCategoryRestMerchantsAttributesMapperPlugin implements RestMerchantsAttributesMapperPluginInterface
 {
     /**
      * @param \Generated\Shared\Transfer\MerchantStorageTransfer $merchantStorageTransfer
