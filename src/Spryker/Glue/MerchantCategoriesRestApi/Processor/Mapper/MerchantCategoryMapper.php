@@ -50,12 +50,6 @@ class MerchantCategoryMapper implements MerchantCategoryMapperInterface
         return $restMerchantsAttributesTransfer->setCategories(new ArrayObject($restMerchantsCategoryAttributesTransfers));
     }
 
-    /**
-     * @param \Generated\Shared\Transfer\MerchantCategoryStorageTransfer $merchantCategoryStorageTransfer
-     * @param string $localeName
-     *
-     * @return \Generated\Shared\Transfer\MerchantCategoryLocalizedAttributesTransfer|null
-     */
     protected function findLocalizedAttributesByLocaleName(
         MerchantCategoryStorageTransfer $merchantCategoryStorageTransfer,
         string $localeName

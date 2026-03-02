@@ -13,9 +13,6 @@ use Spryker\Glue\MerchantCategoriesRestApi\Processor\Mapper\MerchantCategoryMapp
 
 class MerchantCategoriesRestApiFactory extends AbstractFactory
 {
-    /**
-     * @return \Spryker\Glue\MerchantCategoriesRestApi\Processor\Mapper\MerchantCategoryMapperInterface
-     */
     public function createMerchantCategoryMapper(): MerchantCategoryMapperInterface
     {
         return new MerchantCategoryMapper();
