@@ -1,0 +1,24 @@
+resource:
+    name: Merchants
+    shortName: merchants
+
+    properties:
+        categories:
+            type: array
+            writable: false
+            readable: true
+            required: false
+            description: 'Active merchant categories localized to the request locale.'
+            openapiContext:
+                items:
+                    type: object
+                    properties:
+                        categoryKey:
+                            type: string
+                            example: 'computers'
+                        name:
+                            type: string
+                            example: 'Computers'
+                example:
+                    - categoryKey: 'computers'
+                      name: 'Computers'
